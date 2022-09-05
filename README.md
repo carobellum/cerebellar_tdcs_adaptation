@@ -1,5 +1,5 @@
 # Cerebellar tDCS and visuomotor adaptation
-#### Code to analyse behavioural data of visuomotor adaptation task performed during anodal or sham cerebellar stimulation.
+Code to analyse behavioural data of visuomotor adaptation task performed during anodal or sham cerebellar stimulation.
 #### written by Caroline Nettekoven, University of Oxford, 2016 - 2022.
 - Within-subject, sham-controlled anodal tDCS study.
 - Real stimulation parameters: 1.5 mA, 20 min
@@ -30,10 +30,10 @@ column 8    =     Movement Onset \
 column 9    =     Movement Offset \
 column 10   =     Timepoint of peak velocity (is the same as RT) \
 column 11   =     Peak Velocity \
-column 12   =     Artefactual trial yes or no \
+column 12   =     Artefactual trial yes or no
 
 ### SUBJECTS
-(text file ending in _subjectlist)
+(text file ending in _subjectlist) \
 contains subject name (is stored seperately from _data because matlab can't write out strings and numbers to the same text file)
 
 ____________________________________________________________________
