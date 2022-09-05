@@ -2,21 +2,23 @@
 #### Code to analyse behavioural data of visuomotor adaptation task performed during anodal or sham cerebellar stimulation.
 #### written by Caroline Nettekoven, University of Oxford, 2016 - 2022.
 - Within-subject, sham-controlled anodal tDCS study.
-- Real & sham stimulation condition.
+- Real stimulation parameters: 1.5 mA, 20 min
 
-## File Description
-## FILES
+____________________________________________________________________
+
+## Description
+### FILES
 All are stored in folder
 ./data
 
 Files available:
 main_data.txt             contains behavioural data
 main_subjectlist.txt      contains subject list
-____________________________________________________________________
-DATA
+
+### DATA
 (text file ending in _data)
--> contains error data, information about experimental protocol
-____________________________________________________________________
+contains error data and information about experimental protocol
+
 column 1    =     error
 column 2    =     block number
 column 3    =     trial number (within-block)
@@ -29,29 +31,18 @@ column 9    =     Movement Offset
 column 10   =     Timepoint of peak velocity (is the same as RT)
 column 11   =     Peak Velocity                   
 column 12   =     Artefactual trial yes or no
-____________________________________________________________________
-SUBJECT
+
+SUBJECTS
 (text file ending in _subjectlist)
--> contains subject name (is stored seperately from _data because matlab can't write out strings and numbers to the same text file)
-____________________________________________________________________
+contains subject name (is stored seperately from _data because matlab can't write out strings and numbers to the same text file)
+
 ____________________________________________________________________
 
-## Steps performed by analyse_tdcs.m script
-1. Load datasets
+
+## Steps to perform analysis.
+1. Load datasets and calculate performance indices
+   Run `tdcs_get_behav_data.R`
      
-2. Preprocessing:
-   
-- Reject faulty trials:
- - Print number of rejected trials
- - Reject outlier trials from each task block (identified by Grubbs test)
-   
-1. Calculate behavioural indices:
-  - Adaptation
-  - Retention
-
-2. Export data as .txt file for further processing with R or Python
-
-3. Plot data
-  - Trial error in Real (red) & Sham (blue) condition in one plot
-  - Epoch error in Real (red) & Sham (blue) condition in one plot
+2. Calculate statistics:
+   Run `tdcs_stats.R`
 
