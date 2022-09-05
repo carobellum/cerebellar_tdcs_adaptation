@@ -40,9 +40,9 @@ ____________________________________________________________________
 
 
 ## Steps to perform analysis.
-1. Load datasets and calculate performance indices
+1. Load datasets and calculate performance indices\
    Run `tdcs_get_behav_data.R`
      
-2. Calculate statistics:
+2. Calculate statistics\
    Run `tdcs_stats.R`
 
