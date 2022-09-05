@@ -35,7 +35,7 @@
 
 library("bootnet")
 # --------------------- Import Data --------------------- 
-storepath="./data/"
+storepath="~/Documents/Projects/Joystick_TDCS/tdcs_manuscript/code/cerebellar_tdcs_adaptation/data/"
 adaptfile_stem="main"
 adaptfile = paste(adaptfile_stem, "_data.txt", sep="")
 badapt <- read.delim(paste(storepath,adaptfile,sep=""), header = FALSE, sep = "\t", dec = ".")

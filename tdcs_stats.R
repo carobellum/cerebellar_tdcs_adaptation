@@ -1,4 +1,4 @@
-source('~/Documents/Projects/Joystick_TDCS/bin/oxford_tdcs_analysis//tdcs_get_behav_data.R')
+source('~/Documents/Projects/Joystick_TDCS/tdcs_manuscript/code/cerebellar_tdcs_adaptation/tdcs_get_behav_data.R')
 
 
 # No baseline difference in error between sessions ( 1 vs 2, real vs sham) before turning on stimulation (block 1) ----

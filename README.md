@@ -4,6 +4,8 @@ Code to analyse behavioural data of visuomotor adaptation task performed during 
 - Within-subject, sham-controlled anodal tDCS study.
 - Real stimulation parameters: 1.5 mA, 20 min
 
+![Cerebellar TDCS Montage and Current Flow](img.png)
+*Figure 1. Cerebellar tDCS. Left shows the tDCS montage with the anode centered on the right cerebellar cortex and the cathode positioned over the right buccinator muscle. Right shows the electrical Field Magnitude in cerebellum induced by cerebellar anodal tDCS in a representative participant.*
 ____________________________________________________________________
 
 ## Description
