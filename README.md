@@ -20,17 +20,17 @@ main_subjectlist.txt      contains subject list
 contains error data and information about experimental protocol
 
 column 1    =     error \
-column 2    =     block number
-column 3    =     trial number (within-block)
-column 4    =     target
-column 5    =     rotation                   
-column 6    =     visual feedback ON yes or no           
-column 7    =     Reaction Time
-column 8    =     Movement Onset 
-column 9    =     Movement Offset 
-column 10   =     Timepoint of peak velocity (is the same as RT)
-column 11   =     Peak Velocity                   
-column 12   =     Artefactual trial yes or no
+column 2    =     block number \
+column 3    =     trial number (within-block) \
+column 4    =     target \
+column 5    =     rotation \
+column 6    =     visual feedback ON yes or no \        
+column 7    =     Reaction Time \
+column 8    =     Movement Onset \
+column 9    =     Movement Offset \
+column 10   =     Timepoint of peak velocity (is the same as RT) \
+column 11   =     Peak Velocity \            
+column 12   =     Artefactual trial yes or no \
 
 SUBJECTS
 (text file ending in _subjectlist)
