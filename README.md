@@ -8,16 +8,16 @@ ____________________________________________________________________
 
 ## Description
 ### FILES
-All are stored in folder
+All are stored in folder \
 ./data
 
-Files available:
-main_data.txt             contains behavioural data
-main_subjectlist.txt      contains subject list
+Files available: \
+main_data.txt             contains behavioural data \
+main_subjectlist.txt      contains subject list \
 
 ### DATA
-(text file ending in _data)
-contains error data and information about experimental protocol
+(text file ending in _data) \
+contains error data and information about experimental protocol \
 
 column 1    =     error \
 column 2    =     block number \
