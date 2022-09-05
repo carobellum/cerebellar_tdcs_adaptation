@@ -32,7 +32,7 @@ column 10   =     Timepoint of peak velocity (is the same as RT) \
 column 11   =     Peak Velocity \
 column 12   =     Artefactual trial yes or no \
 
-SUBJECTS
+### SUBJECTS
 (text file ending in _subjectlist)
 contains subject name (is stored seperately from _data because matlab can't write out strings and numbers to the same text file)
 
