@@ -19,7 +19,7 @@ main_subjectlist.txt      contains subject list
 (text file ending in _data)
 contains error data and information about experimental protocol
 
-column 1    =     error
+column 1    =     error \
 column 2    =     block number
 column 3    =     trial number (within-block)
 column 4    =     target
